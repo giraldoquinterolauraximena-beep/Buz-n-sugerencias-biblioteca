@@ -16,10 +16,10 @@ Proyecto desarrollado como parte del taller de Programación Aplicada.
 
 ```
 ├── 📁 public
-│   ├── index.html     → formulario para enviar sugerencias
-│   ├── script.js       → envía el formulario al servidor
-│   └── admin.html      → panel que lista las sugerencias recibidas
-├── index.js             → servidor Express (rutas y lógica)
+│   ├── index.html     
+│   ├── script.js       
+│   └── admin.html      
+├── index.js             
 └── package.json
 ```
 
