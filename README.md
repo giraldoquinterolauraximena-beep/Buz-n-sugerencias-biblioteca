@@ -6,16 +6,15 @@ sugerencias recibidas desde un panel de administración.
 
 Proyecto desarrollado como parte del taller de Programación Aplicada.
 
-## 🔗 Enlaces
+##  Enlaces
 
 - **App publicada:** https://buz-n-sugerencias-biblioteca.onrender.com
 - **Panel de administración:** https://buz-n-sugerencias-biblioteca.onrender.com/admin.html
 - **Repositorio:** https://github.com/giraldoquinterolauraximena-beep/Buz-n-sugerencias-biblioteca
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
-📁 (raíz)
 ├── 📁 public
 │   ├── index.html     → formulario para enviar sugerencias
 │   ├── script.js       → envía el formulario al servidor
@@ -24,7 +23,7 @@ Proyecto desarrollado como parte del taller de Programación Aplicada.
 └── package.json
 ```
 
-## ⚙️ Cómo correrlo en local
+## Cómo correrlo en local
 
 ```bash
 npm install
@@ -33,7 +32,7 @@ node index.js
 
 El servidor queda disponible en `http://localhost:3000`.
 
-## 🧩 Historias de usuario
+## Historias de usuario
 
 - Como estudiante, quiero enviar una sugerencia sobre el servicio de la
   biblioteca, para que el equipo bibliotecario la revise y mejore el servicio.
@@ -42,14 +41,14 @@ El servidor queda disponible en `http://localhost:3000`.
 - Como encargado de la biblioteca, quiero ver todas las sugerencias recibidas
   en un panel, para priorizar qué cambios hacer primero.
 
-## ✅ Casos de prueba
+## Casos de prueba
 
 - Enviar sugerencia completa → Resultado esperado: se guarda y limpia el formulario. ¿Pasó? ✅
 - Enviar con mensaje vacío → Resultado esperado: el servidor no la guarda (error 400). ¿Pasó? ✅
 - Ver panel de administración → Resultado esperado: aparece la lista completa. ¿Pasó? ✅
 - Visitar una ruta inexistente → Resultado esperado: devuelve error 404 en JSON. ¿Pasó? ✅
 
-## 🔄 Retrospectiva
+##  Retrospectiva
 
 **¿Qué funcionó bien?**
 El flujo de trabajo por etapas ayudó a no intentar hacer todo a la vez:
@@ -69,7 +68,7 @@ Revisar tambien el link de la terminal por que casi que no me funcioana.
 Guardar las sugerencias en una base de datos real (para que no se pierdan al
 reiniciar el servidor) y un botón para marcarlas como "atendidas".
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - Node.js
 - Express
